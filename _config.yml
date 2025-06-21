@@ -1,0 +1,49 @@
+# GitHub Pages Configuration for AgenticAI Academy
+
+# Site Settings
+title: AgenticAI Academy
+description: Master AI Agent Development - Learn to build production-ready AI agents with GPT-4, Claude, and Gemini
+url: https://yourusername.github.io
+baseurl: /agenticai-academy
+
+# SEO
+author: AgenticAI Academy Team
+logo: /assets/logo.png
+social:
+  name: AgenticAI Academy
+  links:
+    - https://twitter.com/agenticacademy
+    - https://github.com/agenticai
+    - https://linkedin.com/company/agenticai
+    - https://discord.gg/agenticai
+
+# Google Analytics (optional)
+google_analytics: G-XXXXXXXXXX
+
+# Theme (if using Jekyll)
+theme: null
+remote_theme: null
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude files from build
+exclude:
+  - README.md
+  - LICENSE
+  - CONTRIBUTING.md
+  - requirements.txt
+  - app.py
+  - Dockerfile
+  - .env
+  - .gitignore
+  - node_modules
+  - vendor
+
+# Custom variables
+huggingface_space: https://huggingface.co/spaces/YOUR_USERNAME/AgenticAI-Academy
+discord_invite: https://discord.gg/agenticai
+github_repo: https://github.com/YOUR_USERNAME/agenticai-academy
