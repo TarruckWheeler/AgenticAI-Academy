@@ -1,184 +1,183 @@
-🎓 AgenticAI Academy - Professional AI Agent Training Platform
+# 🎓 Welcome to AgenticAI Academy
+
 <div align="center">
-Show Image
-Show Image
-Show Image
+  <img src="https://via.placeholder.com/800x200/6366f1/ffffff?text=AgenticAI+Academy" alt="AgenticAI Academy Banner" width="100%">
+  
+  <h3>Master AI Agent Development • From Beginner to Expert</h3>
+  
+  [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Hugging_Face-yellow)](https://huggingface.co/spaces/AgenticAI/academy)
+  [![Discord](https://img.shields.io/badge/Discord-5000+_members-7289da)](https://discord.gg/agenticai)
+  [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 </div>
-🌟 Overview
-AgenticAI Academy is a comprehensive educational platform on Hugging Face that teaches professionals how to build sophisticated AI agents. Our curriculum combines theoretical knowledge with hands-on practice using real AI models from OpenAI, Anthropic, and Google.
-🎯 What You'll Learn
 
-Prompt Engineering: Master advanced techniques for GPT-4, Claude, and Gemini
-Agent Architecture: Build autonomous AI systems with memory and tools
-Multi-Agent Systems: Orchestrate complex workflows with multiple AI agents
-Production Deployment: Deploy agents that handle real business tasks
-API Integration: Connect to any external service or database
-Business Applications: Create solutions worth $50-500/hour in consulting fees
+## 🌟 About AgenticAI Academy
 
-🤗 Hugging Face Integration
-Spaces Demo
-Try our interactive demo: AgenticAI Academy Demo Space
-python# Quick start with our pre-trained agent templates
-from agenticai import AgentBuilder
+We're building the world's most comprehensive platform for learning AI agent development. Our mission is to democratize AI education and empower professionals to build sophisticated AI systems that solve real-world problems.
 
-# Load pre-trained customer service agent
-agent = AgentBuilder.from_pretrained("agenticai-academy/customer-service-v1")
+### 📊 Why AI Agent Development?
 
-# Customize for your use case
-agent.add_tool("database_query")
-agent.set_personality("friendly and helpful")
+- **$32.27B** - AI Education market by 2030
+- **31.2%** - Annual growth rate (CAGR)
+- **2-4x** - Demand exceeds supply for AI talent
+- **$100K-250K+** - Average salaries for AI developers
+- **$50-500/hour** - Freelance opportunities
 
-# Deploy
-response = agent.process("Help me track my order #12345")
-Available Models & Templates
-ModelDescriptionUse Casecustomer-service-v1Pre-trained customer support agentE-commerce, SaaS supportdata-analyst-v1Autonomous data analysis agentBusiness intelligencecontent-creator-v1Creative writing and marketing agentContent generationcode-assistant-v1Programming and debugging agentDeveloper productivityresearch-agent-v1Information gathering and synthesisMarket research
-📚 Curriculum Structure
-🟢 Beginner Path (No Coding Required)
+## 🚀 Our Platform
 
-Visual agent builder interface
-Drag-and-drop workflow creation
-Pre-built templates and components
-Duration: 80-100 hours
-Outcome: Build working AI agents without code
+### 🎯 What We Offer
 
-🟡 Intermediate Path (Python Developers)
-python# What you'll build
-class CustomAgent:
-    def __init__(self, model="gpt-4"):
-        self.llm = LLMProvider(model)
-        self.memory = VectorMemory()
-        self.tools = ToolRegistry()
-    
-    async def process(self, query):
-        context = await self.memory.search(query)
-        response = await self.llm.generate(query, context)
-        return self.execute_actions(response)
+- **Comprehensive Curriculum** - 80-220 hours of hands-on content
+- **Multi-Level Paths** - From no-code beginners to enterprise architects
+- **Real API Integration** - Work with GPT-4, Claude 3, Gemini Pro
+- **Project Portfolio** - Build 5-8 production-ready projects
+- **Career Support** - Job placement and freelance opportunities
+- **Certification** - Industry-recognized credentials
 
-Duration: 120-150 hours
-Outcome: Production-ready AI applications
-
-🔴 Advanced Path (AI Architects)
-
-Multi-agent orchestration
-Custom model fine-tuning
-Enterprise integration patterns
-Duration: 180-220 hours
-Outcome: Lead AI transformation projects
-
-🛠️ Tools & Technologies
-Supported AI Providers
-
-OpenAI: GPT-4, GPT-3.5, Embeddings
-Anthropic: Claude 3, Claude Instant
-Google: Gemini Pro, PaLM
-Open Source: LLaMA, Mistral, Falcon
-
-Integration Capabilities
-yamlapis:
-  - rest_api
-  - graphql
-  - websockets
-  - database_connections
-
-tools:
-  - web_search
-  - code_execution
-  - data_analysis
-  - image_generation
-  - voice_synthesis
-
-frameworks:
-  - langchain
-  - semantic_kernel
-  - autogen
-  - crewai
-📊 Student Outcomes
-MetricValueAverage Completion Time3.5 monthsJob Placement Rate73%Average Salary Increase47%Student Satisfaction4.8/5.0Projects Completed5-8 per student
-Success Stories
-
-🚀 Sarah M.: From marketing manager to AI consultant ($150K → $225K)
-💼 James L.: Built AI automation agency (now $30K/month revenue)
-🏢 Tech Corp: Trained 50 developers, saved $2M in automation
-
-🚀 Quick Start
-1. Clone the Space
-bashgit clone [tarruck/agenticai-academy](https://huggingface.co/tarruck/agenticai-academy)
-cd platform
-2. Install Dependencies
-bashpip install -r requirements.txt
-3. Set Up API Keys
-python# config.py
-OPENAI_API_KEY = "your-key"
-ANTHROPIC_API_KEY = "your-key"
-GOOGLE_AI_KEY = "your-key"
-4. Run Local Instance
-bashpython app.py
-💡 Example Projects
-Customer Service Bot
-python# Complete implementation in course
-agent = AgentBuilder(
-    name="CustomerServicePro",
-    model="gpt-4",
-    tools=["order_lookup", "refund_process", "ticket_create"],
-    personality="empathetic and solution-focused"
-)
-Data Analysis Agent
-python# Automated insights generation
-analyst = DataAnalystAgent(
-    data_sources=["sql", "csv", "api"],
-    visualization=True,
-    auto_insights=True
-)
-🎓 Certification Levels
-
-Certified AI Agent Practitioner (Beginner)
-Certified AI Agent Developer (Intermediate)
-Certified Enterprise AI Architect (Advanced)
-
-📈 Platform Statistics
-
-Active Students: 2,500+
-Countries: 47
-Corporate Clients: 35
-Course Completion: 87%
-Community Members: 5,000+
-
-🤝 Community & Support
-
-Discord: Join 5000+ members
-Office Hours: Weekly with instructors
-Peer Projects: Collaborate on real implementations
-Job Board: Exclusive opportunities for graduates
-
-🔧 Development Roadmap
-Q1 2025
-
- Hugging Face AutoTrain integration
- Custom model fine-tuning interface
- Multilingual support (ES, FR, DE, ZH)
-
-Q2 2025
-
- Mobile learning app
- AR/VR training environments
- Enterprise API
-
-Q3 2025
-
- Blockchain certifications
- Advanced debugging tools
- Industry-specific tracks
-
-📝 License
-This project is licensed under the MIT License. Course content is proprietary.
-🙏 Acknowledgments
-Special thanks to:
-
-Hugging Face for hosting our platform
-OpenAI, Anthropic, and Google for API access
-Our amazing community of learners and contributors
-
+### 🛠️ Technology Stack
 
 <div align="center">
-Start your AI journey today!
-🚀 Try Demo | 📚 View Courses | 💬 Join Community
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Gradio-FF6B6B?style=for-the-badge&logo=gradio&logoColor=white" alt="Gradio">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+</div>
+
+### 🤖 AI Providers
+
+- **OpenAI** - GPT-4, GPT-3.5, Embeddings
+- **Anthropic** - Claude 3 Opus, Sonnet
+- **Google** - Gemini Pro, PaLM
+- **Open Source** - LLaMA, Mistral, Falcon
+
+## 📚 Learning Paths
+
+### 🟢 Beginner: AI Foundations (80-100 hours)
+Perfect for non-technical professionals
+- Visual no-code agent builder
+- Drag-and-drop workflows
+- Business application focus
+- **Outcome:** Build AI agents without coding
+
+### 🟡 Intermediate: Agent Developer (120-150 hours)
+For programmers adding AI skills
+- Python-based development
+- Advanced prompt engineering
+- Multi-provider integration
+- **Outcome:** Production-ready applications
+
+### 🔴 Advanced: AI Architect (180-220 hours)
+Master enterprise AI systems
+- Multi-agent orchestration
+- Custom framework development
+- Security and compliance
+- **Outcome:** Lead AI transformations
+
+## 🏆 Success Stories
+
+> **"From marketing to AI consulting - now earning $225K/year!"**  
+> — Sarah M., AI Consultant
+
+> **"Built an AI agency generating $30K/month in 6 months"**  
+> — James L., Agency Owner
+
+> **"Saved $2M through AI automation for our 50-person team"**  
+> — TechCorp, Enterprise Client
+
+## 🌐 Community
+
+Join our thriving community of AI builders:
+
+- **5,000+** Active Discord members
+- **2,500+** Students worldwide
+- **35** Corporate partners
+- **73%** Job placement rate
+
+## 🚀 Get Started
+
+### Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/AgenticAI/academy.git
+
+# Install dependencies
+cd academy
+pip install -r requirements.txt
+
+# Run locally
+python app.py
+```
+
+### Try the Demo
+
+🔗 **[Launch Live Demo on Hugging Face](https://huggingface.co/spaces/AgenticAI/academy)**
+
+### Join the Community
+
+💬 **[Join our Discord](https://discord.gg/agenticai)** - Get help, share projects, find collaborators
+
+## 📖 Resources
+
+- [Documentation](https://docs.agenticai.academy)
+- [Video Tutorials](https://youtube.com/agenticai)
+- [Blog](https://blog.agenticai.academy)
+- [API Reference](https://api.agenticai.academy)
+
+## 🤝 Contributing
+
+We welcome contributions! See our [Contributing Guide](CONTRIBUTING.md) for details.
+
+### Ways to Contribute
+
+- 🐛 Report bugs and issues
+- 💡 Suggest new features
+- 📝 Improve documentation
+- 🎨 Enhance UI/UX
+- 🧪 Add tests
+- 🌍 Translate content
+
+## 📈 Roadmap
+
+### Q1 2025
+- [ ] Mobile app launch
+- [ ] Multilingual support (ES, FR, DE, ZH)
+- [ ] Advanced debugging tools
+
+### Q2 2025
+- [ ] Enterprise API
+- [ ] Custom model fine-tuning
+- [ ] Industry-specific tracks
+
+### Q3 2025
+- [ ] AR/VR training experiences
+- [ ] Blockchain certifications
+- [ ] Global expansion
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+Special thanks to:
+- OpenAI, Anthropic, and Google for API access
+- Hugging Face for hosting our platform
+- Our amazing community of learners
+- All contributors and supporters
+
+---
+
+<div align="center">
+  <h3>🎓 Start Your AI Journey Today!</h3>
+  
+  [Website](https://agenticai.academy) • 
+  [Demo](https://huggingface.co/spaces/AgenticAI/academy) • 
+  [Discord](https://discord.gg/agenticai) • 
+  [Twitter](https://twitter.com/agenticacademy)
+  
+  <br>
+  
+  **Building the next generation of AI professionals**
+</div>
