@@ -102,7 +102,7 @@ Success Stories
 
 🚀 Quick Start
 1. Clone the Space
-bashgit clone https://huggingface.co/spaces/agenticai-academy/platform
+bashgit clone [tarruck/agenticai-academy](https://huggingface.co/tarruck/agenticai-academy)
 cd platform
 2. Install Dependencies
 bashpip install -r requirements.txt
